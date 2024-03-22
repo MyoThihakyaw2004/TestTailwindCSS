@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.active{
+    @apply hover:bg-gray-800  hover:text-blue-300 hover:animate-bounce p-3
+}
